@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+<style>
+  ul{
+    list-style:none;
+    margin:0;
+    padding:0;
+    background-color:silver;
+  }
+  li{
+    float:left;
+    border-right:1px solid black;
+  }
+  li:last-child{
+    border-right:none;
+  }
+  li a{
+    display:block;
+    color:black;
+    text-align:center;
+    padding:14px 16px;
+    text-decoration:none;
+    background-color:silver;
+  }
+  li a:hover{
+    background-color:black;
+    color:white;
+  }
+
+
+</style>
+  </head>
+  <body>
+    <ul>
+      <li><a href="">Home</a></li>
+      <li><a href="">News</a></li>
+      <li><a href="">Contact</a></li>
+      <li><a href="">About</a></li>
+    </ul>
+  </body></html>
