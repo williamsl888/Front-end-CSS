@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      h1{
+      text-shadow: 0 0 3px #FF0000;
+      }
+
+      .box{
+        width: 300px;
+        height:100px;
+        padding:15px;
+        background-color:teal;
+        box-shadow:10px 10px 5px grey;
+      }
+.card{
+  width:250px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+  text-align:center;
+}
+.header{
+  background-color:blue;
+  color:white;
+  padding:10px;
+  font-size:40px;
+}
+.container{
+  padding:10px;
+}
+.test1{
+  width:200px;
+  border:1px solid #000;
+  white-space:nowrap;
+  overflow:hidden;
+  text-overflow:ellipsis;
+}
+.wordwrap{
+  width:11em;
+  border:1px solid #000;
+  word-wrap:break-word;
+}
+
+
+      </style>
+  </head>
+  <body>
+    <h1>Text- Shadow Can you see it?</h1>
+    <div class="box">
+      <h3>Box Shado demonstartion</h3>
+    </div>
+    <p>
+    <div class="card">
+      <div class="header">
+        <h1>1</h1>
+      </div>
+      <div class="container">
+        <p>Sepetember 19 , 2019</p>
+      </div></div>
+</p>
+<div class="card">
+  <img src="https://cdn-prod.medicalnewstoday.com/content/images/articles/015/15929/dice-chips-and-playing-cards.jpg" style="width:100%">
+  <div class="container">
+    <p>Gambling</p>
+  </div></div>
+<h2>Text-overflow demostration</h2>
+<p class="test1">This is some long text that will not fit in the box</p>
+<h2>Word wrap demonstration</h2>
+<p class="wordwrap">This paragraph contains a very long word:thisisaveryveryveryverylongword. The long word will break and wrap to the next line</p>
+  </body></html>
+
+
+
+  <!--<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      h1{
+        text-shadow: 5px 5px;
+      }
+      </style>
+  </head>
+  <body>
+    <h1>Text- Shadow Can you see it?</h1>
+  </body></html>
+  
+  horizaontal,vertical, blur effect.-->
