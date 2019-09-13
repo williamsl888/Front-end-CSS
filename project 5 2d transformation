@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+div{
+  width:300px;
+  height:100px;
+  background-color:pink;
+  border: 1px solid black;
+}
+
+.rotate:hover{
+  -ms-transform:rotate(20deg);
+  -webkit-transform:rotate(20deg);
+  transform:rotate(-20deg);
+}
+.translate:hover{
+  -ms-transform:translate(50px,100px);
+  -webkit-transform:translate(50px,100px);
+  transform:translate(50px,100px);
+}
+.scalediv:hover{
+  -ms-transform:scale(2,3);
+  -webkit-transform:scale(2,3);
+  transform:scaleY(2);
+}
+.skewdiv:hover{
+-ms-transform:skewX(20deg);
+-webkit-transform:skewX(20deg);
+transform:skew(20deg,10deg);
+}
+
+.matrixdiv:hover{
+  -ms-transform:matrix(1,-0.3,0,1,0,0);
+  -webkit-transform:matrix(1,-0.3,0,1,0,0);
+  transform:matrix(1,-0.3,0,1,2,8);
+}
+
+
+
+      </style>
+  </head>
+  <body>
+    <h1>The rotate effect</h1>
+    <p>rotate can rotate clockwise or anticlockwise</p>
+    <div class="rotate">
+      Am I rotating?
+    </div>
+    <h1>The translate effect</h1>
+    <div class="translate">
+      Catch me!
+    </div>
+    <h1>The scale effect</h1>
+    <div class="scalediv">
+      Am I getting bigger or smaller?
+    </div>
+    <h1>The Skew Effect</h1>
+    <div class="skewdiv">
+      I am skewed !
+    </div>
+    <h1>The matrix Effect</h1>
+    <div class="matrixdiv">
+      I am doing all the 2D moves
+    </div>
+  </body>
+
+  <!--  -ms-transform:rotate(20deg);
+  -webkit-transform:rotate(20deg);
+  transform:rotate(20deg); or - it is anti clockwise
+  
+  50x and 100 y 
+  width x 2 and 3x y
+  scale x or y only increases that. X or Y 
+   -ms-transform:matrix(1,-0.3,0,1,0,0)
+   matrix: scale of x, skew of y, skew of x, scale of y, translate of x, translate of y. all effects in one  -->
