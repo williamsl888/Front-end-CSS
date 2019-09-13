@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+  .div1{
+    background-color:rgba(0,110,50,0.1);
+}
+.div2{
+  background-color:hsl(0,100%,70%);
+}
+.div3{
+  background-color:hsla(0,100%,50%,0.3);
+}
+.div4{
+  height:240px;
+  background-color:red;
+  background-image:radial-gradient(circle,red,yellow,green);
+}
+</style>
+</head>
+
+
+<!--serprate-->
+
+
+<body>
+  <h1>Multiple Background in one single div</h1>
+  <div class="div1">
+  Red 
+  </div>
+  <div class="div2">
+    Using HSL- Hue Saturation and Lightness</div>
+    <div class="div3">
+      USing HSLA- Hue Saturation Lightness Alpha</div>
+      <div class="div4">
+        <h1>Linear gradient</h1></div>
+</body>
+</html>
+
+
+<!--<!DOCTYPE html>
+<html>
+<head>
+<style>
+  body{
+background-image:url(
+https://www.newyorkpass.com/siteimg/attractions/1700.jpg),url(https://www.portablepress.com/wp-content/uploads/2018/01/iStock-505494458-1024x682.jpg);
+background-position:right bottom,left top;
+background-repeat:no-repeat,repeat;
+
+}
+</style>
+</head>
+rgba(0,110,50,0.1); red, green, blue, opa
+hsl(40,80%,20%); - h = hue color by degree. 
+-->
