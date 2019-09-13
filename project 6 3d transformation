@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      div{
+        width:300px;
+        height:100px;
+        background-color:yellow;
+        border:1px solid black;
+      }
+.rotate3d:hover{
+  transform:rotateZ(150deg);
+}
+.translate:hover{
+  transform:translate3d(100px,20px,30px);
+}
+.scaling:hover{
+  transform:scale3d(2,3,4);
+}
+
+      </style>
+  </head>
+  <body>
+    <h1>The 3D rotate</h1>
+    <div class="rotate3d">
+      I am roatating in 3D
+    </div>
+    <h1>The 3D Translate</h1>
+    <div class="translate">
+      I am translating in 3D
+    </div>
+    <h1>The 3D scale</h1>
+    <div class="scaling">
+      I am scaling
+    </div>
+
+
+  <!-- x, y ,z in rotate-->
