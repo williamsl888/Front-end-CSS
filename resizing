@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      div{
+        border: 2px solid;
+        padding:20px;
+        width:300px;
+        resize:horizontal;
+        overflow:auto;
+      }
+      </style>
+  </head>
+  <body>
+    <div>
+      <p> you can resize this by dragging the bottom right corner</p>
+    </div>
