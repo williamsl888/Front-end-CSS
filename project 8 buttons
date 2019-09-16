@@ -1,0 +1,26 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.button {
+  background-color: red;
+  border: black;
+  color: black;
+  text-align: center;
+}
+
+
+
+</style>
+</head>
+<body>
+
+
+<!--four ways to get a button-->
+<h2>CSS Buttons</h2>
+<a href="#" class="button" value="click me">Click me</a>
+
+</body>
+</html>
