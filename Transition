@@ -1,0 +1,40 @@
+<!DOCTYPE>
+<html>
+  <head>
+    <style>
+      div{
+        width:100px;
+        height:100px;
+        background:red;
+        transition:width 3s;
+        transition-delay:1s;
+      }
+      .trans{
+        transition:width 2s, height 4s;
+      }
+      .trans:hover{
+        width: 300px;
+        height:250px;
+      }
+      #linear{
+        transition-timing-function:linear;
+ 
+      }
+      #ease{
+        transition-timing-function:ease;
+      }
+      div:hover{
+        width:300px;
+      }
+</style>
+  </head>
+  <body>
+<!--<h1>The transition effect</h1>
+    <div class="trans"></div>
+   <p></p>-->
+   <!-- <div id="linear"></div>
+    <p></p>
+    <div id="ease"></div>-->
+    <div></div>
+   
+    </body></html>
