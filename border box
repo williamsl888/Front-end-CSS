@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+<style>
+  .div1{
+    width:300px;
+    height:100px;
+    background-color:red;
+box-sizing:border-box;
+  }
+
+  .div2{
+    width:300px;
+    height:100px;
+    padding:50px;
+    background-color:green;
+    box-sizing:border-box;
+  }
+  </style>
+  </head>
+  <body>
+    <div class="div1"></div>
+    <p>
+    <div class="div2"></div></p>
+  </body>
+</html>
